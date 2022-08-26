@@ -1,8 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+
 h1{
     color: rgb(107, 37, 37);
     padding: 20 500 30;
 }
-h2{
-    color: rgb(43, 104, 84);
-    padding: 10px;
+
+.data-da-noticia{
+    color: #ccc;
+    font-size:smaller;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
 }
