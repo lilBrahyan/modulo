@@ -5,7 +5,7 @@
 }   
 
 body > header {
-    background-color: rgba(1, 7, 56, 0.151);
+    background-color:  #649696;
     padding: 16px 0;
 }
 
@@ -65,4 +65,33 @@ section h2,
     color: #fff;
     padding: 8px;
     display: inline-block;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#tecnologia {
+    background-color: #693469;
+}
+
+# tecnologia .articles article a {
+    background-color: #693469;
+}
+
+#entretenimento {
+    background-color: aquamarine;
 }
