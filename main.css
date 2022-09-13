@@ -11,7 +11,7 @@ body > header {
 
 header .container {
     display:flex
-    justify-content: space-between;
+    
 }
 
 .data-da-noticia{
@@ -43,7 +43,7 @@ header li a {
 }
 
 .articles article {
-    width: 31%;
+    width: 30%;
 }
 
 section {
@@ -85,7 +85,7 @@ section h2{
 }
 
 #tecnologia {
-    background-color: #693469;
+    background-color: rgb(61, 153, 165);
 }
 
 # tecnologia .articles article a {
@@ -93,5 +93,5 @@ section h2{
 }
 
 #entretenimento {
-    background-color: aquamarine;
+    background-color: powderblue;
 }
